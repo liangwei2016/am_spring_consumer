@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="am_producer" />
+        <module name="am_spring_producer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activemq_producer" target="1.7" />
+      <module name="am_consumer" target="1.7" />
+      <module name="am_producer" target="1.7" />
+      <module name="am_spring_producer" target="1.7" />
+      <module name="lw_producer_mq" target="1.7" />
+      <module name="lw_rabbitmq_producer" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

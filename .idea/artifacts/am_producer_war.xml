@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="am_producer:war">
+    <output-path>$PROJECT_DIR$/../am_producer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>am_producer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="am_spring_producer.war">
+      <element id="artifact" artifact-name="am_producer:war exploded" />
+    </root>
+  </artifact>
+</component>
