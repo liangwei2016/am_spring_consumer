@@ -3,11 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.dongnaoedu</groupId>
   <artifactId>am_spring_consumer</artifactId>
-  <packaging>pom</packaging>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>lw_producer_mq</module>
-    </modules>
     <name>am_spring_consumer Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
